@@ -1,0 +1,32 @@
+{
+  "name": "_example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server/bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "~4.16.2",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5",
+    "stripe": "^5.4.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.2.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint-stylish": "^2.0.1",
+    "run-sequence": "^2.2.1"
+  }
+}
