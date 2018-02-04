@@ -12,8 +12,8 @@ const products = [
 ];
 
 router.get('/', (req, res, next) => {
-  //res.render('index', { title: 'Express' });
-  res.redirect('https://auth.archipelago35.hasura-app.io/ui')
+  res.render('index', { title: 'Express' });
+ // res.redirect('https://auth.archipelago35.hasura-app.io/ui')
 });
 
 //router.get('/products/:uuid', (req, res, next) => {

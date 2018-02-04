@@ -212,3 +212,6 @@ api:
       namespace: '{{ cluster.metadata.namespaces.user }}'
     upstreamServicePath: /
     upstreamServicePort: 80
+    authorizationPolicy:
+             restrictToRoles: ["user"]
+             noSessionRedirectUrl: https://auth.{{ cluster.name }}.hasura-app.io/ui/
