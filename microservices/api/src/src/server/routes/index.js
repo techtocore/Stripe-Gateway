@@ -10,13 +10,14 @@ const products = [
     productPrice: 10.00
   }
 ];
-/*
+
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Express' });
+  //res.render('index', { title: 'Express' });
+  res.redirect('https://auth.archipelago35.hasura-app.io/ui')
 });
-*/
+
 //router.get('/products/:uuid', (req, res, next) => {
-  router.get('/', (req, res, next) => {
+  router.get('/pay', (req, res, next) => {
  // const productID = req.params.uuid;
  const productID = 1;
   const product = products.filter((product) => {
